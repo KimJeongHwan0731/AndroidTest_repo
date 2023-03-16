@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnCancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:layout_marginLeft="50dp"
+        android:paddingBottom="50dp"
+        android:backgroundTint="#FF5035"/>
+
+</LinearLayout>

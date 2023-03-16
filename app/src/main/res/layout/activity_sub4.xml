@@ -8,6 +8,7 @@
         android:id = "@+id/btnName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle = "bold"
         android:text = "Button1" />
     <Button
         android:id = "@+id/btnAge"
