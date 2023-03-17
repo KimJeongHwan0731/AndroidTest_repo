@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+연락처에 추가"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="푸하하하하하"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:columnCount="3">
+
+        <TextView
+            android:text="1"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="2"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="3"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="4"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="5"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="6"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="7"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="8"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="9"
+
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="*"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="0"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:text="#"
+            android:textSize="30sp"/>
+
+
+    </GridLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginBottom="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="30dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            app:srcCompat="@drawable/t" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/t"
+            android:adjustViewBounds="true"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/imageView7"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/t"
+            android:adjustViewBounds="true"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imageView7"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/screenOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#FFEB3B"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imgPictuerOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/natural1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/screenTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#0624E4">
+            <ImageView
+                android:id="@+id/imgPictuerTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher_foreground" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#FF5722">
+
+        <Button
+            android:id="@+id/btnSelectOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="화면1선택"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnSelectTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="화면2선택"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
