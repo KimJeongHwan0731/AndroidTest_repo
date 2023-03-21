@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AndroidFirst"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity3"
+            android:name=".MainActivity5"
             android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -21,16 +21,35 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity3"
             android:exported="false">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name=".SubActivity"
