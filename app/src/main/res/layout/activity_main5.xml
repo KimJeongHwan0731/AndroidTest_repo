@@ -15,6 +15,28 @@
         android:textSize="60sp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/ivPicture2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/chronometer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        style="@style/MyTextStyleSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPicture2"
+        android:layout_margin="10dp"
+        android:background="@color/txt_bg_color"
+        android:gravity="center_horizontal"
+        android:text="button status"
+        android:fontFamily="@font/pacifico"
+        android:textStyle="bold" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,8 +49,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/round_button"
-            android:text="start"
-            android:textColor="#FFFFFF"
+            android:text="@string/btn_Start"
+            android:textColor="@color/button_color"
+            android:textSize="@dimen/txt_size_medium"
             android:textStyle="bold" />
 
         <Button
@@ -38,8 +61,9 @@
             android:layout_marginLeft="30dp"
             android:background="@drawable/round_button"
             android:enabled="false"
-            android:text="stop"
+            android:text="@string/btn_Stop"
             android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_size_medium"
             android:textStyle="bold" />
 
         <Button
@@ -49,8 +73,9 @@
             android:layout_marginLeft="30dp"
             android:background="@drawable/round_button"
             android:enabled="false"
-            android:text="reset"
+            android:text="@string/btn_Reset"
             android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_size_medium"
             android:textStyle="bold" />
 
     </LinearLayout>
